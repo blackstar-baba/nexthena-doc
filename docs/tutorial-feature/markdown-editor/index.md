@@ -12,7 +12,7 @@ An editor that supports Markdown and includes basic file operations, and exporti
 
 ## File Manage
 
-See [File Menubar](../file-menubar.md)
+See [File Menubar](../file-menubar/index.md)
 
 ## Export Docx
 

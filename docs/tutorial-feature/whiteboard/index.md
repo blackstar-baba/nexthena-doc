@@ -11,7 +11,7 @@ It is built on the open-source version of Excalidraw and is compatible with the 
 ![whiteboard](whiteboard.png)
 
 ## File Manage
-See [File Menubar](../file-menubar.md)
+See [File Menubar](../file-menubar/index.md)
 
 ## Library
 Due to security and technical limitations, it is currently not possible to add items directly from the official library website. However, you can download the resources from the official library at Excalidraw Library and then load them manually.

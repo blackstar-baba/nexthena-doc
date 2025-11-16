@@ -31,5 +31,5 @@ Clear the current file content and reset the open status.
 
 
 ## More
-[Inner file system](../file-system/file-system.md)
+[Inner file system](../file-system/index.md)
 

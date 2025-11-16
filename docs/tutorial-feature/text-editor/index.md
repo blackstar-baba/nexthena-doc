@@ -9,7 +9,7 @@ An editor that supports text and includes basic file operations.
 ![text-editor.png](./text-editor.png)
 
 ## File Manage
-See [File Menubar](../file-menubar.md)
+See [File Menubar](../file-menubar/index.md)
 
 ## More
 

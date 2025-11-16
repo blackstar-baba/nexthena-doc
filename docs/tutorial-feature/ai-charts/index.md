@@ -9,7 +9,7 @@ Currently, we support creating, deleting, and renaming conversations, as well as
 
 This feature is still evolving, and it’s hard not to marvel at how fast AI is advancing 🤔
 
-**Note**: Before getting started, please configure the providers using [Ai Settings](../ai-settings/ai-settings.md).
+**Note**: Before getting started, please configure the providers using [Ai Settings](../ai-settings/index.md).
 
 ![ai-chats](./ai-chats.png)
 

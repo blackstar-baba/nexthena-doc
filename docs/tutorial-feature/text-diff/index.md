@@ -9,7 +9,8 @@ A utility that supports text comparison and includes basic file operations.
 ![text-diff.png](./text-diff.png)
 
 ## File Manage
-See [File Menubar](../file-menubar.md)
+
+See [File Menubar](../file-menubar/index.md)
 
 ## More
 
