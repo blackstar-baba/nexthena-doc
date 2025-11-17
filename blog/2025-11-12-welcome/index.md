@@ -6,8 +6,7 @@ tags: [nexthena]
 ---
 
 ## What is nexthena?
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+![banner.png](./banner.png)
 
 **Nexthena** is a next-generation inspiration platform that combines tools like notes, whiteboards, and AI conversations — helping you capture ideas and insights quickly and effortlessly.
 
