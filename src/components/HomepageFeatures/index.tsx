@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
     title: string;
-    Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+    img: string
     description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
     {
         title: 'Inspiration Save',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        img: require('@site/static/img/whiteboard.png').default,
         description: (
             <>
                 A software for saving inspiration,
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Local First',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        img: require('@site/static/img/file-system.png').default,
         description: (
             <>
                 All documents saved in Local File System, no need to worry about data leakage.
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Ai Integration',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        img: require('@site/static/img/ai-chats.png').default,
         description: (
             <>
                 Use ai conversation to generate documents, supports markdown、flow chat、word and more.
@@ -40,11 +40,13 @@ const FeatureList: FeatureItem[] = [
     },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, img, description}: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
             <div className="text--center">
-                <Svg className={styles.featureSvg} role="img"/>
+                <img src={img} style={{
+                    borderRadius: '15px',
+                }} alt={title} />
             </div>
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>

@@ -4,7 +4,7 @@ sidebar_position: 80
 
 # File System
 
-// todo
+![file-system.png](./file-system.png)
 
 
 ## More
