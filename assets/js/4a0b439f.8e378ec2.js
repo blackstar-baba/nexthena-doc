@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknexthena_doc=globalThis.webpackChunknexthena_doc||[]).push([[954],{5517:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/nexthena-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Nexthena Blog</title>
+        <link>https://blackstar-baba.github.io/nexthena-doc/blog</link>
+        <description>Nexthena Blog</description>
+        <lastBuildDate>Wed, 12 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://blackstar-baba.github.io/nexthena-doc/blog/welcome</link>
+            <guid>https://blackstar-baba.github.io/nexthena-doc/blog/welcome</guid>
+            <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is nexthena?]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-nexthena">What is nexthena?<a href="https://blackstar-baba.github.io/nexthena-doc/blog/welcome#what-is-nexthena" class="hash-link" aria-label="Direct link to What is nexthena?" title="Direct link to What is nexthena?" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="banner.png" src="https://blackstar-baba.github.io/nexthena-doc/assets/images/banner-55accdad1920ac6eb86ed9453189596c.png" width="780" height="259" class="img_ev3q"></p>
+<p><strong>Nexthena</strong> is a next-generation inspiration platform that combines tools like notes, whiteboards, and AI conversations — helping you capture ideas and insights quickly and effortlessly.</p>
+<p>The name <strong>“Nexthena”</strong> comes from <strong>“Next”</strong> + <strong>“Athena”</strong> — symbolizing the wisdom of Athena guiding us into the next era of creativity and inspiration.</p>]]></content:encoded>
+            <category>Nexthena</category>
+        </item>
+    </channel>
+</rss>

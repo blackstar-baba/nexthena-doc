@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknexthena_doc=globalThis.webpackChunknexthena_doc||[]).push([[923],{154:e=>{e.exports=JSON.parse('{"tags":[{"label":"Nexthena","permalink":"/nexthena-doc/blog/tags/nexthena","description":"Nexthena tag description","count":1}]}')}}]);

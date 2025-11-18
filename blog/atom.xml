@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blackstar-baba.github.io/nexthena-doc/blog</id>
+    <title>Nexthena Blog</title>
+    <updated>2025-11-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blackstar-baba.github.io/nexthena-doc/blog"/>
+    <subtitle>Nexthena Blog</subtitle>
+    <icon>https://blackstar-baba.github.io/nexthena-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://blackstar-baba.github.io/nexthena-doc/blog/welcome</id>
+        <link href="https://blackstar-baba.github.io/nexthena-doc/blog/welcome"/>
+        <updated>2025-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What is nexthena?]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-nexthena">What is nexthena?<a href="https://blackstar-baba.github.io/nexthena-doc/blog/welcome#what-is-nexthena" class="hash-link" aria-label="Direct link to What is nexthena?" title="Direct link to What is nexthena?" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="banner.png" src="https://blackstar-baba.github.io/nexthena-doc/assets/images/banner-55accdad1920ac6eb86ed9453189596c.png" width="780" height="259" class="img_ev3q"></p>
+<p><strong>Nexthena</strong> is a next-generation inspiration platform that combines tools like notes, whiteboards, and AI conversations — helping you capture ideas and insights quickly and effortlessly.</p>
+<p>The name <strong>“Nexthena”</strong> comes from <strong>“Next”</strong> + <strong>“Athena”</strong> — symbolizing the wisdom of Athena guiding us into the next era of creativity and inspiration.</p>]]></content>
+        <author>
+            <name>blackstar-baba</name>
+            <uri>https://x.com/blackstar_baba</uri>
+        </author>
+        <category label="Nexthena" term="Nexthena"/>
+    </entry>
+</feed>
