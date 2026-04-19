@@ -5,6 +5,7 @@ import styles from "@site/src/pages/index.module.css";
 import Heading from "@theme/Heading";
 import useDocusaurusContext from "@docusaurus/core/lib/client/exports/useDocusaurusContext";
 import Link from '@docusaurus/Link';
+import {useColorMode} from "@docusaurus/theme-common";
 
 // 模拟汇聚的 Logo 数据
 const LOGOS = [
@@ -16,8 +17,12 @@ const LOGOS = [
   {id: 6, icon: "💬", name: "Chat", color: "#3B82F6", pos: {bottom: '40%', right: '5%'}, delay: 0.25},
 ];
 
+const lightImg = require('@site/static/img/whiteboard-light.png').default;
+const darkImg = require('@site/static/img/whiteboard-dark.png').default;
+
 const HeroAnimation = () => {
   const {siteConfig} = useDocusaurusContext();
+  const {colorMode} = useColorMode();
   const [stage, setStage] = useState('scattered'); // scattered -> merging -> stable
 
   useEffect(() => {
@@ -82,18 +87,30 @@ const HeroAnimation = () => {
           className="text-center mb-12"
         >
           <header className={clsx('hero hero--primary', styles.heroBanner)}>
-            <div className="container">
-              <Heading as="h1" className="hero__title">
-                {siteConfig.title}
-              </Heading>
-              <p className="hero__subtitle">{siteConfig.tagline}</p>
-              <div className={styles.buttons}>
-                <Link
-                  className="button button--secondary button--lg"
-                  to="/docs/intro">
-                  Tutorial - 1min ⏱️
-                </Link>
+            <div className="container" style={{
+              display: "flex"
+            }}>
+              <div style={{
+                marginTop: "50px",
+                marginRight: "50px",
+                width: "400px",
+              }}>
+                <Heading as="h1" className="hero__title">
+                  {siteConfig.title}
+                </Heading>
+                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <div className={styles.buttons}>
+                  <Link
+                    className="button button--secondary button--lg"
+                    to="/docs/intro">
+                    Tutorial - 1min ⏱️
+                  </Link>
+                </div>
               </div>
+              <div className="">
+                <img src={colorMode === 'dark' ? darkImg : lightImg} alt={"whiteboard home"}/>
+              </div>
+
             </div>
           </header>
         </motion.div>
