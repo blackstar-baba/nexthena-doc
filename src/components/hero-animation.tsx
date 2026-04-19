@@ -108,7 +108,7 @@ const HeroAnimation = () => {
                 </div>
               </div>
               <div className="">
-                <img src={colorMode === 'dark' ? darkImg : lightImg} alt={"whiteboard home"}/>
+                <img src={colorMode === 'dark' ? darkImg : lightImg} alt={"whiteboard img"}/>
               </div>
 
             </div>

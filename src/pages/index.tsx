@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import HeroAnimation from "@site/src/pages/hero-animation";
+import HeroAnimation from "@site/src/components/hero-animation";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -35,9 +35,8 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HeroAnimation/>
       <main>
-        {/*<HomepageFeatures/>*/}
+        <HeroAnimation />
       </main>
     </Layout>
   );
