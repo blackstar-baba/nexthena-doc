@@ -29,7 +29,7 @@ This command generates static content into the `build` directory and can be serv
 Using SSH:
 
 ```bash
-USE_SSH=true pnpm deploy
+USE_SSH=true pnpm run deploy
 ```
 
 Not using SSH:
