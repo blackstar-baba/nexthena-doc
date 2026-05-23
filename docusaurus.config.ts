@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Nexthena',
-  tagline: 'Manage your excalidraw files locally',
+  tagline: 'Manage your excalidraw files locally, support ai generation and more.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
