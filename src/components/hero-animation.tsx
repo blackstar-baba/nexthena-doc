@@ -15,12 +15,12 @@ const DOWNLOADS = [
   {
     label: 'Windows',
     hint: 'GitHub Releases',
-    href: 'https://github.com/blackstar-baba/nexthena-asset/releases/tag/v1.2.1',
+    href: 'https://github.com/blackstar-baba/nexthena-asset/releases/tag/v1.3.2',
   },
   {
     label: 'Linux',
     hint: 'GitHub Releases',
-    href: 'https://github.com/blackstar-baba/nexthena-asset/releases/tag/v1.2.1',
+    href: 'https://github.com/blackstar-baba/nexthena-asset/releases/tag/v1.3.2',
   },
 ];
 
@@ -65,7 +65,7 @@ const HeroAnimation = () => {
           animate={mounted ? {opacity: 1, y: 0} : {}}
           transition={{duration: 0.6, ease: [0.22, 1, 0.36, 1]}}
         >
-          <span className={styles.eyebrow}>v1.2.1</span>
+          <span className={styles.eyebrow}>v1.3.2</span>
           <h1 className={styles.title}>{siteConfig.title}</h1>
           <p className={styles.tagline}>{siteConfig.tagline}</p>
 
